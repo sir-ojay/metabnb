@@ -1,0 +1,31 @@
+.location__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    ul{  display: flex;
+    justify-content: space-between;
+          li{
+        list-style: none;
+    }
+
+    }
+ div{
+height: 48px;
+width: 161px;
+
+     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+
+p{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #333333;
+
+}
+ }
+  
+}

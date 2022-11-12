@@ -1,0 +1,43 @@
+.wallet__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 600px;
+  height: 326px;
+  left: 420px;
+  top: 347px;
+  background: #ffffff;
+  border-radius: 16px;
+  color: #333333;
+
+  .wallet__container {
+    h4 {
+      width: 182px;
+      height: 30px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .meta__wrapper {
+    width: 536px;
+    height: 68px;
+    background: #f8f9fa;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+    p {
+      font-family: "Sora";
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000000;
+    }
+  }
+}

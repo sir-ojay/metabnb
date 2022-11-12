@@ -1,0 +1,86 @@
+.footer__wrapper {
+  height: 372px;
+  background: #1d1d1e;
+  padding: 58px 0px 37px 113px;
+  color: #ffffff;
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+
+    .footer__flex1 {
+      .footer__logo__wrapper {
+        
+        .logo {
+       
+          height: 39.6770133972168px;
+          width: 228.986141204833984px;
+        }
+      }
+      .footer__icons {
+        margin: 96.32px 0px 56.5px 0px;
+        .footer__facebook {
+          height: 18px;
+          width: 9px;
+          margin-right: 36.5px;
+        }
+        .footer__instagram {
+          height: 18px;
+          width: 18px;
+          margin-right: 32px;
+        }
+        .footer__twitter {
+          height: 14.624905586242676px;
+          width: 18px;
+        }
+      }
+    }
+    .footer__flex {
+      h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 35px;
+        color: #f1f3f9;
+      }
+    }
+  }
+  .footer__copy {
+  
+    img {
+      height: 15px;
+      width: 15px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      color: #f7f7f7;
+      display: inline;
+    }
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .footer__wrapper {
+    height: 1132px;
+
+    .footer__container {
+      flex-direction: column;
+      justify-content: left;
+
+      .footer__flex1 {
+        .footer__logo__wrapper {
+          display: flex;
+          justify-content: left;
+
+        }
+      }
+    }
+   
+  }
+}
