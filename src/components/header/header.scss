@@ -1,52 +1,23 @@
 .header__wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 90vw;
-  margin: 46.67px 5px 125px 100px;
-margin-left: 100px;
+ 
+  // margin: 2em;
 
+  padding: 1em;
   .logo__warapper {
     // background-color: red;
     width: 40%;
     .header__logo {
-     height: 36.66666793823242px;
-width: 233px;
-
-
-    }
-    
-  }
-  ul {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    li {
-      list-style: none;
-      color: #434343;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 25px;
-    }
-  }
-  .header__wallet{
-    width: 35%;
-    button{
-    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-    border-radius: 10px;
-    width: 170px;
-    border: 1px solid #a02279 ;
- 
-
-    p {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      color: #ffffff;
-      padding: 0px 0px 0px 30px;
+      height: 36.66666793823242px;
+      width: 233px;
     }
   }
 
   }
- 
+
+
+@media screen and (max-width: 869px) {
+  .nav-container {
+    margin: 0;
+    padding: 0.5em;
+  }
 }
