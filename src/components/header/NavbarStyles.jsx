@@ -35,7 +35,7 @@ export const MobileIcon = styled.div`
   }
   @media screen and (min-width: 350) and (max-width: 550px) {
     display: block;
-    padding-right: -5em;
+   margin-right: -2em;
     font-size: 1.8em;
     cursor: pointer;
     color: #00000f;
