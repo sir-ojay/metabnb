@@ -1,5 +1,4 @@
 .addventure__comp {
-  max-width: 1440px;
   height: 963px;
   background: #ffffff;
   padding: 0px 100px 0px 100px;
@@ -37,14 +36,35 @@
       .add__conatiner {
         display: flex;
         justify-content: space-between;
-        padding: 0px 1em 1em 1em;
+        padding: 1em 1em 0em 1em;
 
         .add_description {
+          p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 13px;
+            color: #434343;
+            padding-bottom: .7em;
+          }
           .icon {
             width: 12px;
             height: 12px;
             margin: 2px;
           }
+        }
+        .offer {
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 13px;
+           padding-bottom: .7em;
+        }
+        .duration {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13px;
+          color: #434343;
+           padding-bottom: .7em;
         }
       }
     }
@@ -52,17 +72,15 @@
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   .addventure__comp {
-       height: 685vh;
+    height: 600vh;
     padding: 0px 20% 0px 15%;
 
     .addventure__body {
-  
       flex-direction: column;
 
       .add__wrapper {
         flex: 100%;
         height: 372px;
-       
 
         .image__ad {
           img {
@@ -88,11 +106,11 @@
   }
 }
 
-@media screen and (min-width:650px) and (max-width: 950px) {
+@media screen and (min-width: 650px) and (max-width: 950px) {
   .addventure__comp {
-    height: 680vh;
+    height: 600vh;
     margin: 58px 0px 53px 0px;
-     padding: 0px 20% 0px 15%;
+    padding: 0px 20% 0px 15%;
     h2 {
       text-align: center;
       font-weight: 700;
@@ -107,7 +125,7 @@
 
       .add__wrapper {
         flex: 50%;
-      margin: 10px;
+        margin: 10px;
 
         height: 672px;
 

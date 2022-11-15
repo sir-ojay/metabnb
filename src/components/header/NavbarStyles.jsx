@@ -28,12 +28,12 @@ export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
     display: block;
-    padding-right: -10em;
+    margin-right: 1em;
     font-size: 1.8em;
     cursor: pointer;
     color: #00000f;
   }
-  @media screen and (min-width:350) and (max-width: 550px) {
+  @media screen and (min-width: 350) and (max-width: 550px) {
     display: block;
     padding-right: -5em;
     font-size: 1.8em;
@@ -99,7 +99,7 @@ export const Text = styled.p`
       font-size: 16px;
        line-height: 20px;
        color: #ffffff;
-         padding: 0px 0px 0px 30px;
+         padding: 15px 0px 15px 30px;
 `;
 // `````````Sidebar Elements````````
 export const SidebarContainer = styled.aside`

@@ -9,7 +9,7 @@ import {
 
 } from "./NavbarStyles";
 
-const sidebar = ({ toggle, isOpen }) => {
+const sidebar = ({ toggle, isOpen , modal}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -27,10 +27,9 @@ const sidebar = ({ toggle, isOpen }) => {
           <SidebarLink to="/" onClick={toggle}>
             Community
           </SidebarLink>
-          <SidebarLink to="/" onClick={toggle}>
+          <SidebarLink to="/" onClick={modal}>
             Connect wallet
           </SidebarLink>
-
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

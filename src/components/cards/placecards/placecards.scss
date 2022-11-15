@@ -1,4 +1,5 @@
 .placecards__comp {
+  max-width: 1440px;
   height: 1560px;
   background: #ffffff;
   padding: 0px 100px 0px 100px;
@@ -29,14 +30,35 @@
       .add__conatiner {
         display: flex;
         justify-content: space-between;
-        padding: 0px 1em 1em 1em;
+        padding: 1em 1em 0em 1em;
 
         .add_description {
+          p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 13px;
+            color: #434343;
+            padding-bottom: 0.7em;
+          }
           .icon {
             width: 12px;
             height: 12px;
             margin: 2px;
           }
+        }
+        .offer {
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 13px;
+          padding-bottom: .7em;
+        }
+        .duration {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13px;
+          color: #434343;
+          padding-bottom: .7em;
         }
       }
     }
@@ -44,7 +66,7 @@
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   .placecards__comp {
-    height: 1285vh;
+    height: 1140vh;
     padding: 0px 20% 0px 15%;
 
     .addventure__body {
@@ -79,7 +101,7 @@
 }
 @media screen and (min-width: 600px) and (max-width: 950px) {
   .placecards__comp {
-    height: 1285vh;
+   height: 1140vh;
     padding: 0px 20% 0px 15%;
     margin: 58px 0px 0px 0px;
 

@@ -175,8 +175,8 @@ const Placecards = () => {
                 </p>
               </div>
               <div>
-                <p>{card.offer}</p>
-                <p>{card.duration}</p>
+                <p className="offer">{card.offer}</p>
+                <p className="duration">{card.duration}</p>
               </div>
             </div>
           </div>

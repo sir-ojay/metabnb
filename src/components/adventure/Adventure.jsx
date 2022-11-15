@@ -101,8 +101,8 @@ const Adventure = () => {
                 </p>
               </div>
               <div>
-                <p>{ad.offer}</p>
-                <p>{ad.duration}</p>
+                <p className="offer">{ad.offer}</p>
+                <p className="duration">{ad.duration}</p>
               </div>
             </div>
           </div>

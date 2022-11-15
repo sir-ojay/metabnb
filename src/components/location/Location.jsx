@@ -31,17 +31,15 @@ const Location = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <li>Farm</li>
         </Link>
-       
       </ul>
       <div>
-        <button>
-          <ul>
-            <li className="location">Location</li>
-            <li>
-              <IoMdOptions />
-            </li>
-          </ul>
-        </button>
+        <div className='button__location'>
+          <div className="location">Location</div>
+          <div>
+            {" "}
+            <IoMdOptions />
+          </div>
+        </div>
       </div>
     </div>
   );
