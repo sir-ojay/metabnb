@@ -10,7 +10,7 @@ export const NavContainer = styled.div`
   z-index: 10;
   justify-content: space-between;
   align-items: center;
-  padding: 1.8em 4em;
+  padding: 0px 100px 0px 100px;
   position: sticky;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   top: 0;
@@ -27,6 +27,13 @@ export const FaIcon = styled(FaBars)`
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
+    display: block;
+    padding-right: -10em;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #00000f;
+  }
+  @media screen and (min-width:350) and (max-width: 550px) {
     display: block;
     padding-right: -5em;
     font-size: 1.8em;

@@ -1,7 +1,8 @@
 .addventure__comp {
-  max-width: 1440;
+  width: 100%;
   height: 963px;
   background: #ffffff;
+  padding: 0px 100px 0px 100px;
   margin: 58px 0px 53px 0px;
   h2 {
     text-align: center;
@@ -14,15 +15,12 @@
   .addventure__body {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-around;
+    justify-content: space-around;
 
     .add__wrapper {
       height: 372px;
-      // width: 25%;
-        flex: 25%;
-  // padding: 20px;
-      // padding: 20px;
-      // margin: 0px 0px 24px 20px;
+      flex: 20%;
+      margin: 10px;
       background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
       border: 1px solid #d7d7d7;
       border-radius: 15px;
@@ -38,7 +36,7 @@
       }
       .add__conatiner {
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-between;
         padding: 0px 1em 1em 1em;
 
         .add_description {
@@ -52,37 +50,20 @@
     }
   }
 }
-@media screen and (min-width: 350px) and (max-width:550px) {
+@media screen and (min-width: 350px) and (max-width: 550px) {
   .addventure__comp {
-    height: 963px;
-    background: #ffffff;
-    margin: 58px 0px 53px 0px;
-    h2 {
-      text-align: center;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 60px;
-      color: #000000;
-    }
+    padding: 0px 10px 0px 10px;
 
     .addventure__body {
-      display: flex;
+  
       flex-direction: column;
-      // justify-content: center;
 
       .add__wrapper {
-         flex:100%;
-  // padding: 20px;
+        flex: 100%;
         height: 372px;
-        // width: 20%;
-        margin: 0px 0px 24px 20px;
-        background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
-        border: 1px solid #d7d7d7;
-        border-radius: 15px;
+       
 
         .image__ad {
-          border: 1px solid #d7d7d7;
-          border-radius: 15px;
           img {
             padding: 1em;
             width: 100%;
@@ -107,10 +88,10 @@
 }
 
 @media screen and (max-width: 992px) {
- .addventure__comp {
-    height: 963px;
-    background: #ffffff;
+  .addventure__comp {
+    height: 323px;
     margin: 58px 0px 53px 0px;
+    padding: 0px 10px 0px 10px;
     h2 {
       text-align: center;
       font-weight: 700;
@@ -122,21 +103,15 @@
     .addventure__body {
       display: flex;
       flex-direction: column;
-      // justify-content: center;
 
       .add__wrapper {
         flex: 50%;
-  // padding: 20px;
+
         height: 672px;
-        // width: 20%;
+
         margin: 0px 0px 24px 20px;
-        background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
-        border: 1px solid #d7d7d7;
-        border-radius: 15px;
 
         .image__ad {
-          border: 1px solid #d7d7d7;
-          border-radius: 15px;
           img {
             padding: 1em;
             width: 100%;

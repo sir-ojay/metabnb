@@ -1,19 +1,21 @@
 .placecards__comp {
-  height: 1963px;
+  height: 1560px;
   background: #ffffff;
+  padding: 0px 100px 0px 100px;
   margin: 58px 0px 53px 0px;
 
   .addventure__body {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 
-
     .add__wrapper {
       height: 372px;
-      // width: 20%;
-      flex: 25%;
-      // margin: 0px 0px 24px 20px;
+
+      flex: 20%;
+
+      margin: 10px;
+
       background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
       border: 1px solid #d7d7d7;
       border-radius: 15px;
@@ -23,7 +25,7 @@
         border-radius: 15px;
         img {
           padding: 1em;
-          width:100% ;
+          width: 100%;
           height: 265px;
         }
       }
@@ -33,7 +35,6 @@
         padding: 0px 1em 1em 1em;
 
         .add_description {
-            
           .icon {
             width: 12px;
             height: 12px;
@@ -44,100 +45,84 @@
     }
   }
 }
-@media screen  and (min-width: 350px) and (max-width:550px) {
+@media screen and (min-width: 350px) and (max-width: 550px) {
   .placecards__comp {
-  height: 963px;
-  background: #ffffff;
-  margin: 58px 0px 53px 0px;
+    height: 6900px;
+    padding: 0px 10px 0px 10px;
 
-  .addventure__body {
- 
-    display: flex;
-  flex-direction: column;
-    justify-content: center;
+    .addventure__body {
+   
+      flex-direction: column;
+   
 
+      .add__wrapper {
+        height: 372px;
+        flex: 100%;
+   
 
-    .add__wrapper {
-      height: 372px;
-      // width: 100%;
-      flex: 100%;
-      margin: 0px 0px 24px 20px;
-      background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
-      border: 1px solid #d7d7d7;
-      border-radius: 15px;
-
-      .image__ad {
-        border: 1px solid #d7d7d7;
-        border-radius: 15px;
-        img {
-          padding: 1em;
-          width:100% ;
-          height: 265px;
+        .image__ad {
+         
+          img {
+            padding: 1em;
+            width: 100%;
+            height: 265px;
+          }
         }
-      }
-      .add__conatiner {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 1em 1em 1em;
+        .add__conatiner {
+      
+          justify-content: space-between;
+          padding: 0px 1em 1em 1em;
 
-        .add_description {
-            
-          .icon {
-            width: 12px;
-            height: 12px;
-            margin: 2px;
+          .add_description {
+            .icon {
+              width: 12px;
+              height: 12px;
+              margin: 2px;
+            }
           }
         }
       }
     }
   }
 }
-}@media screen  and  (max-width:950px) {
+@media screen and (min-width: 600px) and (max-width: 950px) {
   .placecards__comp {
-  height: 963px;
-  background: #ffffff;
-  margin: 58px 0px 53px 0px;
+    padding: 0px 10px 0px 10px;
+    // height: 7150px;
+    background: #ffffff;
+    margin: 58px 0px 0px 0px;
 
-  .addventure__body {
- 
-    display: flex;
-  flex-direction: column;
-    justify-content: center;
+    .addventure__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
+      .add__wrapper {
+        height: 372px;
+        flex: 40%;
+        margin: 10px;
 
-    .add__wrapper {
-      height: 372px;
-      // width: 100%;
-      flex: 50%;
-      margin: 0px 0px 24px 20px;
-      background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
-      border: 1px solid #d7d7d7;
-      border-radius: 15px;
-
-      .image__ad {
-        border: 1px solid #d7d7d7;
-        border-radius: 15px;
-        img {
-          padding: 1em;
-          width:100% ;
-          height: 265px;
+        .image__ad {
+          img {
+            padding: 1em;
+            width: 100%;
+            height: 265px;
+          }
         }
-      }
-      .add__conatiner {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 1em 1em 1em;
+        .add__conatiner {
+          display: flex;
+          justify-content: space-between;
+          padding: 0px 1em 1em 1em;
 
-        .add_description {
-            
-          .icon {
-            width: 12px;
-            height: 12px;
-            margin: 2px;
+          .add_description {
+            .icon {
+              width: 12px;
+              height: 12px;
+              margin: 2px;
+            }
           }
         }
       }
     }
   }
-}
 }

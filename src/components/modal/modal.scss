@@ -1,46 +1,97 @@
 .wallet__wrapper {
-  display: flex;
+  display: none;
+  // display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   position: absolute;
-  top: '50%';
-  left: '50%';
-  transform: 'translate(-50%, -50%)';
-  border: '2px solid #000';
-  box-Shadow: 24;
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+  border: "2px solid #000";
+  box-shadow: 24;
   width: 600px;
-  height: 326px;
-  background: #ffffff;
+  // height: 326px;
+  background-color: #ffffff;
   border-radius: 16px;
   color: #333333;
 
   .wallet__container {
-    h4 {
-      width: 182px;
-      height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px 0px 32px;
+ 
+   .connect__cont{
+    margin-right:386px;
+h4 {
+
       font-weight: 700;
       font-size: 24px;
-      line-height: 30px;
+    // padding-right:20vw; 
+      // line-height: 30px;
+      // background-color: red;
     }
+   }
+    
+    .cancel__wrapper{
+      padding-top: 32px;
+.icon__cancel {
+      height: 24px;
+      width: 24px;
+    }
+    }
+    
   }
-  p {
+  .wallet__wrapper_bottom{
+     padding: 32px;
+ p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    // line-height: 20px;
+    //  background-color: red;
   }
   .meta__wrapper {
+    display: flex;
+    justify-content: space-between;
     width: 536px;
-    height: 68px;
     background: #f8f9fa;
     border: 1px solid #cfd8dc;
     border-radius: 12px;
-    p {
-      font-family: "Sora";
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 23px;
-      color: #000000;
+    padding: 12px 20px ;
+    margin-bottom: 16px;
+
+    .fox__wrapper {
+     
+   
+      
+      .icon {
+         
+        width: 44px;
+        height: 44px;
+      }
+      p {
+        
+        padding: 20px 0px 0px 16px;
+      
+        display: inline;
+        font-family: "Sora";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+      }
     }
+.arrow_container{
+   padding-top: 16px;
+    // margin-left:386px;
+ 
+.dir__icon {
+      color: #959da6;
+      height: 8.5px;
+      width: 15px;
+    }
+}
+    
+  }
+ 
   }
 }

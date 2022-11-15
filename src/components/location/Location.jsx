@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import {IoMdOptions} from 'react-icons/io'
 import './location.scss'
 
 const Location = () => {
@@ -18,23 +19,29 @@ const Location = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <li>fantast city</li>
         </Link>
-        <ul>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <li>beach</li>
-          </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <li>Carbins</li>
-          </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <li>Off-grid</li>
-          </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <li>Farm</li>
-          </Link>
-        </ul>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <li>beach</li>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <li>Carbins</li>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <li>Off-grid</li>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <li>Farm</li>
+        </Link>
+       
       </ul>
       <div>
-        <p>Location</p>
+        <button>
+          <ul>
+            <li className="location">Location</li>
+            <li>
+              <IoMdOptions />
+            </li>
+          </ul>
+        </button>
       </div>
     </div>
   );
