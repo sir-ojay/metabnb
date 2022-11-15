@@ -1,5 +1,5 @@
 .addventure__comp {
-  width: 100%;
+  max-width: 1440px;
   height: 963px;
   background: #ffffff;
   padding: 0px 100px 0px 100px;
@@ -52,7 +52,8 @@
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   .addventure__comp {
-    padding: 0px 10px 0px 10px;
+       height: 685vh;
+    padding: 0px 20% 0px 15%;
 
     .addventure__body {
   
@@ -87,11 +88,11 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width:650px) and (max-width: 950px) {
   .addventure__comp {
-    height: 323px;
+    height: 680vh;
     margin: 58px 0px 53px 0px;
-    padding: 0px 10px 0px 10px;
+     padding: 0px 20% 0px 15%;
     h2 {
       text-align: center;
       font-weight: 700;
@@ -106,10 +107,11 @@
 
       .add__wrapper {
         flex: 50%;
+      margin: 10px;
 
         height: 672px;
 
-        margin: 0px 0px 24px 20px;
+        // margin: 0px 5px 10px 5px;
 
         .image__ad {
           img {

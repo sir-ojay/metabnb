@@ -11,11 +11,8 @@
 
     .add__wrapper {
       height: 372px;
-
       flex: 20%;
-
       margin: 10px;
-
       background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
       border: 1px solid #d7d7d7;
       border-radius: 15px;
@@ -47,21 +44,17 @@
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
   .placecards__comp {
-    height: 6900px;
-    padding: 0px 10px 0px 10px;
+    height: 1285vh;
+    padding: 0px 20% 0px 15%;
 
     .addventure__body {
-   
       flex-direction: column;
-   
 
       .add__wrapper {
         height: 372px;
         flex: 100%;
-   
 
         .image__ad {
-         
           img {
             padding: 1em;
             width: 100%;
@@ -69,7 +62,6 @@
           }
         }
         .add__conatiner {
-      
           justify-content: space-between;
           padding: 0px 1em 1em 1em;
 
@@ -87,15 +79,12 @@
 }
 @media screen and (min-width: 600px) and (max-width: 950px) {
   .placecards__comp {
-    padding: 0px 10px 0px 10px;
-    // height: 7150px;
-    background: #ffffff;
+    height: 1285vh;
+    padding: 0px 20% 0px 15%;
     margin: 58px 0px 0px 0px;
 
     .addventure__body {
-      display: flex;
       flex-direction: column;
-      justify-content: center;
 
       .add__wrapper {
         height: 372px;
