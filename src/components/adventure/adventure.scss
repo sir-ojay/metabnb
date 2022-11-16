@@ -70,9 +70,10 @@
     }
   }
 }
-@media screen and (min-width: 350px) and (max-width: 550px) {
+@media screen and (min-width: 350px) and (max-width: 650px) {
   .addventure__comp {
-    height: 600vh;
+    min-height: 450vh;
+    max-height: 750vh;
     padding: 0px 20% 0px 15%;
 
     .addventure__body {
@@ -108,7 +109,8 @@
 
 @media screen and (min-width: 650px) and (max-width: 950px) {
   .addventure__comp {
-    height: 600vh;
+     min-height: 450vh;
+    max-height: 750vh;
     margin: 58px 0px 53px 0px;
     padding: 0px 20% 0px 15%;
     h2 {
