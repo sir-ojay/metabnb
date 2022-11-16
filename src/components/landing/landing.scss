@@ -27,33 +27,38 @@
     }
     .landing__search {
       margin-top: 2em;
-      input {
-        background: rgba(247, 247, 247, 0.1);
-        border: 1px solid #a3a3a3;
-        border-radius: 8px 0px 0px 8px;
-        height: 54px;
-        width: 60%;
+      height: 54px;
+      display: flex;
+
+      .location__search {
+        width: 50%;
+        input {
+          background: rgba(247, 247, 247, 0.1);
+          border: 1px solid #a3a3a3;
+          border-radius: 8px 0px 0px 8px;
+          height: 100%;
+        }
+        ::placeholder {
+          padding: 10px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 130%;
+          color: #b8b8b8;
+        }
       }
-      ::placeholder {
-        padding: 10px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 130%;
-        color: #b8b8b8;
-      }
-      button {
-        height: 55.5px;
+
+      .button {
+        height: 100%;
         width: 30%;
         border-radius: [object Object]px;
         background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
         border-radius: 0px 8px 8px 0px;
         border: 1px solid #a02279;
-        margin: 0px 0px 0px -5px;
-        
 
         p {
           font-weight: 400;
           font-size: 16px;
+          padding-top: 15px;
           line-height: 19px;
           text-align: center;
           color: #ffffff;
@@ -64,14 +69,13 @@
   .landing__images {
     height: 100%;
     width: 45%;
-   
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 550px) {
   .landing__container {
     width: 90%;
- padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
     margin: 0px 10px 67px 10px;
     flex-direction: column;
     justify-content: center;
@@ -87,22 +91,25 @@
       }
 
       .landing__search {
-        input {
-          border-radius: 8px 0px 0px 8px;
-          height: 54px;
-          width: 60%;
-        }
-        ::placeholder {
-          padding: 10px;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 130%;
-          color: #b8b8b8;
-        }
-        button {
-          width: 30%;
+        margin-top: 2em;
+        height: 54px;
+        display: flex;
 
-          margin: 0px 0px 0px -5px;
+        .location__search {
+          width: 50%;
+          input {
+            border-radius: 8px 0px 0px 8px;
+            height: 100%;
+          }
+        }
+
+        .button {
+          height: 100%;
+          width: 30%;
+          border-radius: [object Object]px;
+          background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+          border-radius: 0px 8px 8px 0px;
+          border: 1px solid #a02279;
         }
       }
     }
@@ -113,10 +120,10 @@
     }
   }
 }
-@media screen and (min-width:650px) and (max-width: 950px){
-   .landing__container {
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .landing__container {
     width: 90%;
- padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
     margin: 0px 10px 67px 10px;
     flex-direction: column;
     justify-content: center;
@@ -132,22 +139,21 @@
       }
 
       .landing__search {
-        input {
-          border-radius: 8px 0px 0px 8px;
-          height: 54px;
-          width: 60%;
-        }
-        ::placeholder {
-          padding: 10px;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 130%;
-          color: #b8b8b8;
-        }
-        button {
-          width: 30%;
+        margin-top: 2em;
+        height: 54px;
+        display: flex;
 
-          margin: 0px 0px 0px -5px;
+        .location__search {
+          width: 50%;
+          input {
+            border-radius: 8px 0px 0px 8px;
+            height: 100%;
+          }
+        }
+
+        .button {
+          height: 100%;
+          width: 30%;
         }
       }
     }

@@ -18,6 +18,10 @@ export const NavContainer = styled.div`
     padding: 1em;
     height: 60px;
   }
+  @media screen and (max-width: 1024px) {
+    padding: 1.2em;
+    height: 60px;
+  }
 `;
 
 export const FaIcon = styled(FaBars)`
@@ -63,6 +67,12 @@ export const NavItem = styled.li`
     font-size: 20px;
     line-height: 25px;
   }
+  @media screen and (max-width: 1024px) {
+    a {
+      font-size: 12px;
+      line-height: 25px;
+    }
+  } ;
 `;
 
 export const NavLinks = styled(LinkR)`
@@ -91,15 +101,22 @@ export const Buttn = styled.button`
   border-radius: 10px;
   width: 170px;
   border: 1px solid #a02279;
- 
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
 `;
 
 export const Text = styled.p`
   font-weight: 400;
-      font-size: 16px;
-       line-height: 20px;
-       color: #ffffff;
-         padding: 15px 0px 15px 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 15px 0px 15px 30px;
+  @media screen and (max-width: 1024px) {
+    padding: 5px 0px 5px 10px;
+    text-align: left;
+    font-size: 12px;
+  }
 `;
 // `````````Sidebar Elements````````
 export const SidebarContainer = styled.aside`

@@ -16,16 +16,19 @@ const Landing = () => {
         </p>
 
         <div className="landing__search">
-          <input type="text" placeholder="Search  for location" />{" "}
-          <button>
+          <div className="location__search">
+            {" "}
+            <input type="text" placeholder="Search  for location" />{" "}
+          </div>
+
+          <div className="button">
             <p>Search</p>
-          </button>
+          </div>
         </div>
       </div>
 
       <div className="landing__images">
-        <img src={landingimage} alt=""  />
-
+        <img src={landingimage} alt="" />
       </div>
     </div>
   );
