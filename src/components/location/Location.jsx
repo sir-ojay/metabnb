@@ -33,12 +33,13 @@ const Location = () => {
         </Link>
       </ul>
       <div>
-        <div className='button__location'>
-          <div className="location">Location</div>
-          <div>
-            {" "}
-            <IoMdOptions />
-          </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Location"
+            className="button__location"
+          />
+          <IoMdOptions  className='icon'/>
         </div>
       </div>
     </div>

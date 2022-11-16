@@ -38,7 +38,7 @@ export const MobileIcon = styled.div`
    margin-right: -2em;
     font-size: 1.8em;
     cursor: pointer;
-    color: #00000f;
+    color:  #A02279 ;
   }
 `;
 

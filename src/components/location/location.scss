@@ -19,111 +19,130 @@
   div {
     width: 25%;
 
-    .button__location{
+    .button__location {
       width: 161px;
       height: 48px;
-       padding: 15px;
+      padding: 15px;
       background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
       border: 1px solid #b4b4b4;
       border-radius: 8px;
-      display: flex;
-      justify-content: space-between;
+
+      &:hover {
+        border: 1px solid #b4b4b4;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+      }
+
       .location {
         font-weight: 400;
         font-size: 16px;
         text-align: left;
         color: #333333;
-      
       }
+    }
+    .icon {
+      position: relative;
+      top: -30px;
+      left: 100px;
     }
   }
 }
 @media screen and (min-width: 350px) and (max-width: 550px) {
- .location__wrapper {
-  width: 100%;
-  padding: 0px 5px 0px 5px;
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  margin-top: 70px;
+  .location__wrapper {
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 70px;
 
-  ul {
-   width: 60%;
-   display: grid;
-   grid-template-columns: 1fr 1fr  ;
-   grid-template-rows: 1fr 1fr  ;
-    li {
-      list-style: none;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 18px;
-      margin-bottom: 0.4em;
-      color: #434343;
-     padding-left: .4em;
-      border-right: 2px solid #b4b4b4;
-      word-wrap: break-word;
-    }
-  }
-  div {
-    width: 35%;
-
-    .button__location{
-      margin-left: 1.6em;
-      width: 91px;
-      height: 28px;
-       padding: 5px;
-      
-      .location {
+    ul {
+      width: 60%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      li {
+        list-style: none;
         font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0.4em;
+        color: #434343;
+        padding-left: 0.4em;
+        border-right: 2px solid #b4b4b4;
+        word-wrap: break-word;
+      }
+    }
+    div {
+      width: 35%;
+
+      .button__location {
+        margin-left: 1.6em;
+        width: 91px;
+        height: 28px;
+        padding: 5px;
+
+
+        .location {
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+      .icon {
+        position: relative;
+        top: -23px;
+        left: 70px;
         font-size: 12px;
-        
       }
     }
   }
-}
 }
 
 @media screen and (min-width: 650px) and (max-width: 950px) {
- .location__wrapper {
-  width: 100%;
-  padding: 0px 5px 0px 5px;
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  margin-top: 70px;
+  .location__wrapper {
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 70px;
 
-  ul {
-   width: 60%;
-   display: grid;
-   grid-template-columns: 1fr 1fr  ;
-   grid-template-rows: 1fr 1fr  ;
-    li {
-      list-style: none;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 18px;
-      margin-bottom: 0.4em;
-      color: #434343;
-     padding-left: .4em;
-      border-right: 2px solid #b4b4b4;
-      word-wrap: break-word;
-    }
-  }
-  div {
-    width: 35%;
-
-    .button__location{
-   margin-left: 1.6em;
-      width: 91px;
-      height: 28px;
-       padding: 5px;
-      
-      .location {
+    ul {
+      width: 60%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      li {
+        list-style: none;
         font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0.4em;
+        color: #434343;
+        padding-left: 0.4em;
+        border-right: 2px solid #b4b4b4;
+        word-wrap: break-word;
+      }
+    }
+    div {
+      width: 35%;
+
+      .button__location {
+        margin-left: 1.6em;
+        width: 91px;
+        height: 28px;
+        padding: 5px;
+
+        .location {
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+      .icon {
+        position: relative;
+        top: -23px;
+        left: 40px;
         font-size: 12px;
-        
       }
     }
   }
-}
 }
